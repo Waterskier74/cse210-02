@@ -33,3 +33,6 @@ root                    (project root folder)
 ## Authors
 ---
 * Rick Larrabee (lar21-35@byui.edu)
+* Talitha Brown
+* George Krenk
+* Eric Arthur

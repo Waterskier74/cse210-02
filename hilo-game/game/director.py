@@ -35,7 +35,7 @@ class Director:
             self.get_inputs()
 
     def get_inputs(self):
-        """Ask the user if they want to roll.
+        """Ask the user if they want to play again.
 
         Args:
             self (Director): An instance of Director.
@@ -57,12 +57,11 @@ class Director:
             return 
 
         card = Card()
-        card.choose_card()
-        #self.score = card.points 
+        card.choose_card() 
         self.total_score += card.points
 
     def do_outputs(self):
-        """Displays the dice and the score. Also asks the player if they want to roll again. 
+        """Display the score and check if the game is still being played. 
 
         Args:
             self (Director): An instance of Director.

@@ -2,7 +2,7 @@ import random
 
 class Card:
     """ The responsibility of Card is to keep track of the current and last care and determine if the current
-    card is higer or lower than the last card and calculate the points for it.
+    card is higher or lower than the last card and calculate the points for it.
    
     Attributes:
         value (int): The number of spots on the side facing up.
@@ -21,7 +21,8 @@ class Card:
     
     def choose_card(self):
 # 3) Create the choose_card(self) method. Use the following method comment.
-        """Generates a new random value and calculates the points.
+        """Generates the first card, asks for input and validates if the user was correct.
+        It also awards or takes points away.
         
         Args:
             self (Card): An instance of choosing the next card.
